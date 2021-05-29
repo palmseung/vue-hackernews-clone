@@ -3,8 +3,6 @@ import VueRouter from 'vue-router';
 import NewsView from '../views/NewsView.vue';
 import AskView from '../views/AskView.vue';
 import JosbView from '../views/JobsView.vue';
-import UserView from '../views/UserView';
-import ItemView from '../views/ItemView';
 
 Vue.use(VueRouter);
 
@@ -30,13 +28,5 @@ export const router = new VueRouter({
             component: JosbView,
             
         },
-        {
-            path: '/user',
-            component: UserView,
-        },
-        {
-            path: '/item',
-            component: ItemView,
-        }
     ]
 });
