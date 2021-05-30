@@ -37,4 +37,16 @@ body {
 .page-enter, .page-leave-to {
   opacity: 0;
 }
+
+a {
+  text-decoration: none;
+}
+a.router-link-exact-active {
+  text-decoration: underline;
+}
+a:hover {
+  color: #42B883;
+  text-decoration: underline;
+} 
+
 </style>
