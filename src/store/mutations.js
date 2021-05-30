@@ -7,5 +7,11 @@ export const mutations = {
     },
     SET_ASK(state, ask) {
         state.ask = ask;
+    },
+    SET_USER(state, user) {
+        state.user = user;
+    },
+    SET_ITEM(state, item) {
+        state.item = item;
     }
 }
